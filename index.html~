@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>New Tab Clock</title>
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<script src="js/bookmarks.js"></script>
+		<script src="js/content.js"></script>
+		</head>
+	<body>
+		<div class="clock-wrap">
+	      <div class="clock">
+	      <h4 id="bookmarks"></h4>
+
+	     <form id="search" class="fadein" method="get" action="https://www.google.com/search">
+                <input type="text" id="search-box" name="q" placeholder="Google">
+                <button type="submit"><i class="fa fa-search-plus"></i></button>
+            </form>
+
+        	<h1 id="timedate" class="fade-in one"></h1><h1 id="ampm" class="fade-in two"></h1>
+	        <p id="greetings" class="fade-in three"></p>
+	      </div>
+	    </div>
+	
+	<body>
+</html>

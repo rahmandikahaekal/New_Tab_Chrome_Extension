@@ -1,0 +1,30 @@
+{	
+	"chrome_url_overrides" : {
+    	"newtab": "index.html" 
+	},
+
+	"name": "New Tab Clock",
+	"version": "1.0",
+	"description": "Make a suit Homepage chrome",
+	"background": {
+		"persistent": false,
+		"scripts": ["js/background.js"]
+	},
+	"icons": {
+		"16": "logo_ext.png",
+		"48": "logo_ext.png",
+		"128": "logo_ext.png"
+	},
+
+	"browser_action": {
+		"default_icon": "logo_ext.png",
+		"default_title": "Open New Tab!"
+	},
+
+	"permissions": [
+    	"activeTab"
+  	],
+
+
+	"manifest_version": 2
+}

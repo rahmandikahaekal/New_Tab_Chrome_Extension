@@ -26,20 +26,7 @@ Source Files :
   - bootstrap.min.css
   - font-awesome.min.css
   - main.css
-- images 
-  - calendar.png
-  - classroom.png
-  - contacts.png
-  - docs.png
-  - drive.png
-  - gmail.png
-  - hangouts.png
-  - maps.png
-  - myaccount.png
-  - news.png
-  - photos.png
-  - plus.png
-  - youtube.png
+- images
 - js
   - background.js
   - bookmarks.js
@@ -48,3 +35,7 @@ Source Files :
 - index.html
 - logo_ext.png
 - manifest.json
+
+## Source
+
+[Unsplash.com](https://www.unsplash.com)

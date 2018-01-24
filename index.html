@@ -10,64 +10,14 @@
 		<link rel="stylesheet" href="css/main.css">
 		</head>
 	<body>
-		<script data-source="internal" type="text/javascript" src="js/search-engines.js"></script>
-		<script type="text/javascript" src="js/tooltip.js"></script>
-		<script type="text/javascript" src="js/fetchapps.js"></script>
-
-
-	    <nav class="navbar navbar-default navbar-fixed-top">
-	        <div class="navbar-header">
-	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-	            <span class="sr-only">Toggle navigation</span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	          </button>
-	        </div>
-	        <div id="navbar" class="navbar-collapse collapse">
-          		<ul class="nav navbar-nav">
-	            	<li><a href="#">Most Visited</a></li>
-          			<li class="dropdown">
-			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="tool_menu">Apps </a>
-			          <ul class="dropdown-menu">
-			            <li><a id="tool_myaccount" href="https://myaccount.google.com/"><i class="icon_myaccount"></i>My Account</a></li>
-			            <li><a id="tool_gmail" href="https://mail.google.com/mail/"><i class="icon_gmail"></i>Gmail</a></li>
-			            <li><a id="tool_youtube" href="https://www.youtube.com/"><i class="icon_youtube"></i>Youtube</a></li>
-			            <li><a id="tool_drive" href="https://drive.google.com/"><i class="icon_drive"></i>Drive</a></li>
-			            <li><a id="tool_documents" href="https://docs.google.com/document/"><i class="icon_documents"></i>Docs</a></li>
-			            <li><a id="tool_contacts" href="https://contacts.google.com/"><i class="icon_contacts"></i>Contacts</a></li>
-			            <li><a id="tool_calendar" href="https://calendar.google.com/"><i class="icon_calendar"></i>Calendar</a></li>
-			            <li><a id="tool_photos" href="https://photos.google.com/"><i class="icon_photos"></i>Photos</a></li>
-			            <li><a id="tool_news" href="https://news.google.com/"><i class="icon_news"></i>News</a></li>
-			            <li><a id="tool_googleplus" href="https://plus.google.com/"><i class="icon_googleplus"></i>Google+</a></li>
-			            <li><a id="tool_hangouts" href="https://hangouts.google.com/"><i class="icon_hangouts"></i>Hangouts</a></li>
-			            <li><a id="tool_googlemap" href="https://maps.google.com/"><i class="icon_googlemap"></i>Google Maps</a></li>
-			            <li><a id="tool_classroom" href="https://classroom.google.com/"><i class="icon_classroom"></i>Google Classroom</a></li>
-			            <li><a id="tool_facebook" href="https://www.facebook.com/"><i class="icon_facebook"></i>Facebook</a></li>
-			          </ul>
-			        </li>
-			        <li class="dropdown">
-			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Share </a>
-			          <ul class="dropdown-menu">
-			            <li><a id="click-ShareFB" href="#"><i class="icon_facebook"></i>Facebook</a></li>
-			            <li><a id="click-ShareTW" href="#"><i class="icon_twitter"></i>Twitter</a></li>
-			            <li><a id="click-ShareGG" href="#"><i class="icon_googleplus"></i>Google+</a></li>
-			            <li><a id="click-SharePI" href="#"><i class="icon_pinterest"></i>Pinterest</a></li>
-			            <li><a id="click-ShareTU" href="#"><i class="icon_tumblr"></i>Tumblr</a></li>
-			            <li><a id="click-ShareVK" href="#"><i class="icon_vk"></i>VK</a></li>
-			          </ul>
-			        </li>
-          		</ul>
-	        </div>
-	    </nav>
 
 		<div class="clock-wrap">
 	      <div class="clock">
 	      <h4 id="bookmarks"></h4>
 
-	     <form id="search" class="fadein" method="get" action="https://www.google.com/search">
+	     <form id="search" class="fadein" method="GET" action="https://www.google.co.id/search">
                 <input type="text" id="search-box" name="q" placeholder="Search Google" autofocus>
-            </form>
+         </form>
 
         	<h1 id="timedate" class="fade-in one"></h1><h1 id="ampm" class="fade-in two"></h1>
 	        <p id="greetings" class="fade-in three"></p>

@@ -6,10 +6,12 @@
 	"name": "New Tab Clock",
 	"version": "1.0",
 	"description": "Make a suit Homepage chrome",
+	"offline_enable": true,
 	"background": {
-		"persistent": false,
+		"persistent": true,
 		"scripts": ["js/background.js"]
 	},
+	"content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://www.google.com; object-src https://www.google-analytics.com https://www.google.com 'self'",
 	"icons": {
 		"16": "logo_ext.png",
 		"48": "logo_ext.png",
@@ -25,6 +27,9 @@
     	"activeTab"
   	],
 
+  	"web_accessible_resources": [
+        "*"
+    ],
 
 	"manifest_version": 2
 }
